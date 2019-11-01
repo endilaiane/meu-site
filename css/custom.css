@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+html,body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.bloco{
+    min-height: 70%;
+    padding-top: 50px;
+}
+img {
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+.mb-5{
+    margin-bottom: 5%;
+}
+
+/* Nav */
+nav{
+    background-color: transparent;
+}
+.navbar-fixed {
+    position: absolute;
+    height: 70px;
+}
+nav ul a:hover {
+    background-color: transparent;
+    color: #fdad01;
+}
+.nav-color{
+    background-color: rgba(0,0,0,0.7) ;
+    transition: back 0.5s linear;
+}
+
+/* Título */
+.titulo::before{
+    content:'';
+    display: block;
+    width: 100px;
+    border: 4px solid #fdad01 ;
+    border-radius: 5px;
+}
+.titulo::before:last-of-type{
+    border: 4px solid #28023D ;
+}
+
+/*Banner  */
+.banner{
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-panel{
+    position:absolute;
+    top: 100px;
+}
+.card-panel img{
+    width: 60%;
+}
+
+/* Portifólio */
+.portifolio{
+    margin-top: 15%;
+}
+  
+/* Skills */
+.progress {
+    height: 20px;
+    background-color:rgba(223, 222, 222, 0.411);
+    border-radius: 10px;  
+}
+
+/* Experiência */
+.experiencia li{
+    margin-top: 15px;
+}
+
+/* Footer */
+  .footer{
+      padding-top: 2% ;
+  }
+  
+
+
