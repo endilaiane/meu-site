@@ -68,6 +68,9 @@ nav ul a:hover {
 .portifolio{
     margin-top: 15%;
 }
+.tabs .indicator {
+    background-color: #fdad01;
+}
   
 /* Skills */
 .progress {
